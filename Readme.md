@@ -16,6 +16,23 @@ They fail at preserving:
 Most meeting tools stop at summaries.
 PMO Meeting Copilot aims to go one step further: reconstruct the meeting into structured execution objects.
 
+## Why I’m building this
+
+After 15 years working in marketing, I’ve seen a recurring problem in executive decision-making:
+
+the issue is usually not the decision itself, but what gets lost as that decision travels into execution.
+
+By the time a decision reaches cross-functional teams, key pieces are often missing:
+- the original context behind the decision
+- the boundaries of what was and was not decided
+- the tradeoffs that were implicitly accepted
+- the additional information teams need in order to act with confidence
+
+That gap creates friction, misalignment, and unnecessary rework.
+
+PMO Meeting Copilot is motivated by that gap.
+Its goal is not to produce better meeting notes, but to help reconstruct the context, boundaries, and next steps that make executive decisions executable.
+
 ## What it does
 
 Given a meeting transcript, optional supporting materials (deck, memo, pre-read), and optional participant relationships, PMO Meeting Copilot produces:
