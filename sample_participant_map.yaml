@@ -1,0 +1,12 @@
+meeting_title: Q3 Beverage Strategy Review
+participants:
+  - name: Executive Sponsor
+    role: decision_maker
+  - name: Beverage Lead
+    role: presenter_owner
+  - name: Insights Lead
+    role: research_owner
+  - name: Finance Partner
+    role: pricing_partner
+  - name: Operations Lead
+    role: downstream_executor
