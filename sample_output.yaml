@@ -1,0 +1,77 @@
+meeting_title: Quarterly Growth Review
+meeting_topic: Portfolio, pricing, and validation review for a new initiative
+
+decisions:
+  - statement: Keep the overall platform structure aligned with the global strategic framework, while localizing selected elements for the target market.
+    confidence: medium
+    evidence_refs:
+      - doc_section_03
+      - transcript_chunk_07
+
+  - statement: Treat pricing as a primary growth lever rather than a supporting commercial detail.
+    confidence: medium
+    evidence_refs:
+      - doc_section_06
+      - transcript_chunk_11
+
+decision_context:
+  - statement: Growth in the target market is concentrated in the value-oriented segment, where affordability and operational scale strongly influence competitiveness.
+    evidence_refs:
+      - doc_section_01
+      - doc_section_02
+
+  - statement: Customers want products that feel rewarding, but increasingly expect reduced friction in health, effort, or perceived tradeoff.
+    evidence_refs:
+      - doc_section_04
+      - transcript_chunk_05
+
+decision_boundaries:
+  - statement: The meeting did not finalize the long-term flagship offer for the initiative.
+    confidence: medium
+
+  - statement: Validation results were discussed, but the interpretation standard remained open.
+    confidence: high
+
+next_steps:
+  - action: Rewrite the validation-results section so the strongest outcomes are framed positively while unresolved items remain clearly marked.
+    owner_candidate: project_owner
+    collaborators:
+      - insights_lead
+      - strategy_lead
+    rationale: Current framing over-amplifies edge-case weakness instead of overall signal.
+    evidence_refs:
+      - doc_section_05
+      - transcript_chunk_10
+
+  - action: Reconcile the definitions of baseline price, realized price, and promoted price before the next commercial review.
+    owner_candidate: commercial_owner
+    collaborators:
+      - finance_partner
+      - business_lead
+    rationale: Conflicting price definitions reduce decision clarity and weaken downstream planning.
+    evidence_refs:
+      - doc_section_06
+      - transcript_chunk_12
+
+stakeholders:
+  decision_makers:
+    - role: executive_sponsor
+  owner_candidates:
+    - role: project_owner
+    - role: commercial_owner
+  collaborators:
+    - role: insights_lead
+    - role: finance_partner
+  impacted:
+    - role: operations_team
+    - role: category_team
+
+open_questions:
+  - What interpretation standard should be used for the current validation results?
+  - Should one representative test case be allowed to stand in for a broader platform-level conclusion?
+  - What pricing structure is most defensible across segments with different value perceptions?
+
+risks:
+  - Incremental impact may be overstated if substitution effects are not separated from truly new demand.
+  - Commercial definitions may be inconsistent across materials.
+  - Decision rationale may be lost if only a short recap is circulated.
