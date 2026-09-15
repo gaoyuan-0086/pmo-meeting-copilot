@@ -1,6 +1,6 @@
 # PMO Meeting Copilot
 
-An executive-meeting copilot that turns transcripts, meeting materials, and participant context into decision objects — not just meeting notes.
+Beyond meeting notes: structure transcripts into decisions, owners, risks, and next steps.
 
 ## Why this exists
 
